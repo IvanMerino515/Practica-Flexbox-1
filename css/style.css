@@ -24,3 +24,132 @@ margin-top: 0;
 margin-bottom: 0;
 
 }
+
+body{
+display: flex;
+width: 375px;
+height: 667px;
+padding: 62px 24px;
+color: white;
+font-family: "Outfit", sans-serif;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color:#15263F; 
+
+}
+
+
+.container{
+width:327px;
+height: 543px;
+border-radius: 15px;
+background-color: #15263F;
+box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 10) ; 
+}
+
+
+
+
+.image{
+width: 278px;
+height: 278px;
+margin:24px 25px 24px 24px  ;
+border-radius: 8px;
+opacity: 1;
+
+}
+
+@media (hover:hover){
+    .image:hover{
+    overlay: 1 cyan;
+    }    
+}
+
+.title-card{
+font-weight: 600;
+font-size: 22px;
+margin-right: 25px;
+color: white;
+margin-left: 24px;
+
+}
+
+@media (hover:hover){
+.title-card:hover{
+color: cyan    
+}
+}
+
+.text-card{
+font-size: 18px;
+font-weight: 300;
+color: #8bacd9;
+margin-right: 25px;
+margin-left: 24px;
+}
+
+.icons-bottom{
+width: 100px;
+height: 0px;
+margin-top: 30px;
+display: flex;
+align-items: center;
+gap: 10px;
+margin-left: 25px;
+
+
+}
+
+.icons-bottom2{
+flex-direction: row-reverse;
+margin-top: -25px;
+margin-right: 40px;
+display: flex;
+align-items: center;
+gap: 8px;
+margin-left: 25px;
+border-bottom: 1px solid #2e405a ;
+}
+
+.text-icono{
+color: cyan;
+font-size: 15px;
+
+}
+
+.avatar-section{
+display: flex;
+align-items: center;
+gap: 18px;
+margin-left: 25px;
+}
+
+.avatar{
+width: 33px;
+height: 33px;
+border: 1px solid white;
+border-radius: 50%;
+
+}
+
+.creation{
+font-size: 15px;
+color:#8bacd9;
+;
+
+}
+
+.link-card{
+color: white;
+margin-left: 4px;
+
+}
+@media (hover:hover){
+    .link-card:hover{
+    color: cyan    
+    }
+    }
+
+
+
